@@ -70,7 +70,7 @@
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted scrollto" href="index.html#"><i class="bi bi-whatsapp"></i> Konsultasi Gratis</a>
 
     </div>
   </header><!-- End Header -->
