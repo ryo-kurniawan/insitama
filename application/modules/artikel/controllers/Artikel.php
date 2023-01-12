@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Berita extends MX_Controller{
+class Artikel extends MX_Controller{
     //put your code here
     // public function __construct() {
     //     parent::__construct();
@@ -10,8 +10,8 @@ class Berita extends MX_Controller{
     // }
 
     public function index(){
-        $a['layout'] = 'v_berita';
-        $a['modules'] = 'berita';
+        $a['layout'] = 'v_artikel';
+        $a['modules'] = 'artikel';
         echo Modules::run('template/frontend', $a);
     }
     

@@ -51,26 +51,27 @@
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0" style="margin-left:10px">
+      <a href="<?= base_url(); ?>" class="logo d-flex align-items-center scrollto me-auto me-lg-0" style="margin-left:10px">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="<?= base_url(); ?>assets/img/isi2.png" alt="">
         <h5 style="color:#000000">Integra Solusi Infotama</h5>
       </a>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" style="margin-right:5%;">
         <ul>
 
           <li class="nav-link"><a href="<?= base_url(); ?>"><span>Beranda</span> </a></li>
 
-          <li><a class="nav-link" href="<?= base_url(); ?>tentang">Tentang Kami</a></li>
-          <li><a class="nav-link" href="<?= base_url(); ?>layanan">Layanan</a></li>
-          <li><a class="nav-link" href="<?= base_url(); ?>berita">Berita</a></li>
-          <li><a class="nav-link scrollto" href="<?= base_url(); ?>contact">Contact</a></li>
+          <li><a class="nav-link" href="<?= base_url('tentang'); ?>">Tentang Kami</a></li>
+          <li><a class="nav-link" href="<?= base_url('layanan'); ?>">Layanan</a></li>
+          <li><a class="nav-link" href="<?= base_url('artikel'); ?>">Artikel</a></li>
+          <li><a class="nav-link" href="<?= base_url('contact'); ?>">Contact</a></li>
+          <li><a class="nav-link" href="<?= base_url('loker'); ?>">Loker</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="index.html#"><i class="bi bi-whatsapp"></i> Konsultasi Gratis</a>
+      <!--<a class="btn-getstarted scrollto" href="<?= base_url('auth'); ?>">Login Admin</a>-->
 
     </div>
   </header><!-- End Header -->

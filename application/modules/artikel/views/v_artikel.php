@@ -1,5 +1,5 @@
 <section>
     <div class="container mt-5 mb-5">
-    <center><h2>Berita</h2></center>
+    <center><h2>Artikel</h2></center>
     </div>
 </section>
