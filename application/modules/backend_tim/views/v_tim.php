@@ -4,15 +4,16 @@
               <!-- Isi Konten -->
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">FAQ</h4>
-                  <a href="<?= base_url('backend_faq/tambah_faq'); ?>" class="btn btn-inverse-primary btn-rounded float-right">Tambah FAQ</a>
+                  <h4 class="card-title">Tim</h4>
+                  <a href="<?= base_url('backend_tim/tambah_tim'); ?>" class="btn btn-inverse-primary btn-rounded float-right">Tambah Tim</a>
                   <div class="table-responsive">
                     <table class="table table-hover">
                       <thead>
                         <tr>
                           <th>No</th>
-                          <th>Pertanyaan</th>
-                          <th>Jawaban</th>
+                          <th>Nama Lengkap</th>
+                          <th>Jabatan</th>
+                          <th>Foto</th>
                           <th>Aksi</th>
                         </tr>
                       </thead>
@@ -20,10 +21,11 @@
                       <?php $no = 0; foreach ($data as $i) { $no++; ?>
                         <tr>
                           <td><?= $no; ?></td>
-                          <td><?= $i->pertanyaan; ?></td>
-                          <td><?= $i->jawaban; ?></td>
+                          <td><?= $i->nama_lengkap; ?></td>
+                          <td><?= $i->jabatan; ?></td>
+                          <td><?= $i->foto; ?></td>
                           <td>
-                        <a href="<?= base_url('backend_faq/hapus_faq/'.$i->kd_faq); ?>" class="btn btn-inverse-danger btn-rounded btn-sm">Hapus</a></td>
+                        <a href="<?= base_url('backend_tim/hapus_tim/'.$i->kd_tim); ?>" class="btn btn-inverse-danger btn-rounded btn-sm">Hapus</a></td>
                         </tr>
                         <?php } ?>
                       </tbody>

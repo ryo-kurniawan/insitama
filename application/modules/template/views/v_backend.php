@@ -169,6 +169,7 @@
   <!-- Custom js for this page-->
   <script src="<?= base_url(); ?>template/js/dashboard.js"></script>
   <script src="<?= base_url(); ?>template/js/Chart.roundedBarCharts.js"></script>
+  <script src="<?= base_url(); ?>template/js/file-upload.js"></script>
   <!-- End custom js for this page-->
 </body>
 

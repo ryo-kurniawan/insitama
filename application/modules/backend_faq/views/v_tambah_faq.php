@@ -16,7 +16,7 @@
                     </div>
                     <div class="float-right">
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                    <button class="btn btn-light">Cancel</button>
+                    <a href="<?= base_url('backend_faq'); ?>" class="btn btn-light">Cancel</a>
                     </div>
                   </form>
                 </div>

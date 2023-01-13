@@ -20,13 +20,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('backend_layanan'); ?>">
+            <a class="nav-link" href="<?= base_url('backend_testimoni'); ?>">
               <i class="icon-ban menu-icon"></i>
-              <span class="menu-title">Layanan</span>
+              <span class="menu-title">Testimoni</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('backend_berita'); ?>">
+            <a class="nav-link" href="<?= base_url('backend_layanan'); ?>">
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Layanan</span>
             </a>
